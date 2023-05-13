@@ -1,53 +1,60 @@
 {
-    "projects":[
+    "projects": [
         {
-            "title": "BaayMax",
+            "title": "Course Selling",
             "imageUrl": "https://github.com/Benrobo/baaymax-cli/raw/master/readmeImg/cli.png?raw=true",
-            "project_url": "https://github.com/Benrobo/baaymax",
-            "description": "Generate developer portfolio site from your github profile.",
-            "tags": [ "react", "nodejs" ]
+            "project_url": "https://my-course.vercel.app/",
+            "github_url": "https://github.com/proBhavesh/course-selling/",
+            "description": "Get quality courses with one year membership plans.",
+            "tags": ["react", "nodejs", "mongodb"]
         },
         {
-            "title": "Babcock Ride",
+            "title": "Discord AI bot",
             "imageUrl": "https://raw.githubusercontent.com/Benrobo/babcock-uber/main/readmeImg/babcock-profile.png",
-            "project_url": "https://github.com/Benrobo/babcock-uber",
-            "description": "Get a ride quickly as possible using this app meant for the babcock university.",
-            "tags": [ "react", "postgresql", "nodejs" ]
+            "project_url": "https://github.com/proBhavesh/dogo-bot",
+            "description": "AI bot that replies to user queries using OpenAI API.",
+            "github_url": "https://github.com/proBhavesh/dogo-bot",
+            "tags": ["discordAPI", "nodejs"]
         },
         {
-            "title": "E-Workflow",
+            "title": "Flabs Incent",
             "imageUrl": "https://raw.githubusercontent.com/Benrobo/e-workflow-client/main/readmeImg/dashboard.png",
-            "project_url": "https://github.com/Benrobo/e-workflow-client",
-            "description": "Automate document submission within a school.",
-            "tags": [ "react", "postgresql", "nodejs" ]
+            "project_url": "https://incent.vercel.app/",
+            "description": "Get incentivised for your open source contributions.",
+            "github_url": "",
+            "tags": ["solana", "blockchain", "reactjs"]
         },
         {
-            "title": "Quickr",
+            "title": "APIs for Developers",
             "imageUrl": "https://raw.githubusercontent.com/Benrobo/quickr/main/readmeImg/quickr1.png",
-            "project_url": "https://github.com/Benrobo/quickr",
-            "description": "Generate unique resume / CV.",
-            "tags": [ "react", "nodejs" ]
+            "project_url": "http://getapi-git-main.probhavesh.vercel.app/",
+            "description": "Get 500+ free APIs in 40+ categories.",
+            "github_url": "https://github.com/proBhavesh/APIs-for-Developers",
+            "tags": ["HTML", "CSS", "JS"]
         },
         {
-            "title": "PayRill",
+            "title": "Crypto Price Tracker",
             "imageUrl": "https://camo.githubusercontent.com/b9b0a0e9957c3fe08d47cbacbd36dd87242837f5ce88f00ed9db4cd3da8fd3d9/68747470733a2f2f643131327936393861646975327a2e636c6f756466726f6e742e6e65742f70686f746f732f70726f64756374696f6e2f736f6674776172655f70686f746f732f3030322f3232312f3931352f64617461732f67616c6c6572792e6a7067",
-            "project_url": "https://github.com/Benrobo/payrill",
-            "description": "Ease Checkout Processes and Reduce queues in shopping stores application powered by Rapyd API.",
-            "tags": [ "react", "nodejs", "rapyd api" ]
+            "project_url": "https://protracker.vercel.app/",
+            "description": "Crypto price tracker with support for 250+ coins.",
+            "github_url": "https://github.com/proBhavesh/crypto-price-tracker",
+            "tags": ["react", "nodejs", "CoinGeko API"]
         },
         {
-            "title": "RayPal",
+            "title": "Book Selling WebApp",
             "imageUrl": "https://camo.githubusercontent.com/db234641b926872b7e4cd67a3daae83c4e937295922e4176feacf83b0d1975b8/68747470733a2f2f6368616c6c656e6765706f73742d73332d6368616c6c656e6765706f73742e6e6574646e612d73736c2e636f6d2f70686f746f732f70726f64756374696f6e2f736f6674776172655f70686f746f732f3030322f3033362f3130312f64617461732f67616c6c6572792e6a7067",
-            "project_url": "https://github.com/Benrobo/Rapyd-Payment-app",
-            "description": "Payment Infrastructure application powered by Rapyd API.",
-            "tags": [ "react", "nodejs", "rapyd api" ]
+            "project_url": "https://firebase-dashboard.vercel.app/",
+            "description": "Buy books from top authors at great prices.",
+            "github_url": "https://github.com/proBhavesh/firebase-dashboard",
+            "tags": ["react", "nodejs", "firebase"]
         },
-         {
-            "title": "Tymonial",
+        {
+            "title": "Auto Tweet Bot",
             "imageUrl": "https://raw.githubusercontent.com/Benrobo/tymonial-app/main/github-img/formUI.png",
-            "project_url": "https://github.com/Benrobo/tymonial-app",
-            "description": "An easy way to collect users feedback into yout web app.",
-            "tags": [ "react", "nodejs", "linode server" ]
+            "project_url": "https://twitter.com/desidevX3",
+            "description": "Tweets automatically for you twitter profie.",
+            "github_url": "https://github.com/proBhavesh/tweet_bot",
+            "tags": ["nodejs", "Twiiter API"]
         }
     ]
 }
