@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+      
+        <url>
+          <loc>https://www.bhavesh.engineer/</loc>
+          <lastmod>2023-06-02T19:03:09.855Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.8</priority>
+        </url>
+      
+
+        <url>
+          <loc>https://www.bhavesh.engineer/about</loc>
+          <lastmod>2023-06-02T19:03:09.855Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.8</priority>
+        </url>
+      
+
+        <url>
+          <loc>https://www.bhavesh.engineer/projects</loc>
+          <lastmod>2023-06-02T19:03:09.855Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.8</priority>
+        </url>
+      
+    </urlset>
