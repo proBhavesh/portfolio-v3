@@ -8,7 +8,7 @@ export default DataContext
 export function DataContextProvider({ children }) {
 
 
-    const [contactActive, setContactActive] = useState(false)
+    const [contactActive, setContactActive] = useState(true)
 
     async function CronFetch() {
         // store current minutes in localstorage.
