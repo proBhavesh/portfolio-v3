@@ -15,7 +15,7 @@ export default function DomHead({ pageName = "Home Page" }) {
             <meta property="og:url" content="https://github.com/benrobo/portfolio-v3/" />
             <meta property="og:title" content="Bhavesh - Personal Portfolio" />
             <meta property="og:description" content="Transforming complex problems into elegant solutions with the power of code." />
-            <meta property="og:image" content="https://github.com/Benrobo/baaymax-assets/blob/main/app.png?raw=true" />
+            <meta property="og:image" content="https://github.com/proBhavesh/portfolio-v3/blob/master/public/images/portfolioImage.png?raw=true" />
 
             {/* <!-- Twitter --> */}
             <meta property="twitter:card" content="summary_large_image" />
