@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import { Container } from "..";
 import { AiFillMessage, AiOutlineClose } from "react-icons/ai";
 import DataContext from "../../context/DataContext";
@@ -15,7 +15,15 @@ const notif = new Notification(3000);
 function Contact() {
     const { contactActive, closeContactForm, openContactForm } =
         useContext(DataContext);
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            openContactForm();
+        }, 3000);
 
+        return () => {
+            clearTimeout(timer);
+        };
+    }, []);
     return (
         <div className="w-screen bg-dark-300 h-auto p-2 md:p-5 ">
             <Container>

@@ -73,7 +73,7 @@ function Projects() {
                                     <style jsx>{`
                                 .imgCont{
                                     width: 100%;
-                                    height: 190px;
+                                    height: 127px;
                                     background-image: url(${list.imageUrl === "" || list.imageUrl === null ? "https://www.wallpapertip.com/wmimgs/136-1369543_laptop-coding.jpg" : list.imageUrl});
                                     background-size: cover;
                                     background-repeat: no-repeat;

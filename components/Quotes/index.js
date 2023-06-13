@@ -1,5 +1,6 @@
 import React from "react";
 import { Container } from "..";
+import Link from "next/link";
 
 import { FaStar, FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 import userInfo from "../../data/usersInfo.json";
@@ -15,7 +16,6 @@ function Quote() {
                     >
                         Testimonials
                     </h1>
-                    {/*<p data-aos="fade-left" className="text-[12px] text-white-200 ">My favorite motivational quote.</p>*/}
                 </div>
                 <div
                     id="quote-cont"
@@ -32,30 +32,74 @@ export default Quote;
 
 function QuoteCard() {
     return (
-        <div
-            id="t-box"
-            className="relative w-full h-auto space-2 bg-dark-300 px-[30px] py-[20px] md:px-[80px] md:py-[50px] rounded-lg overflow-hidden"
-        >
-            <FaQuoteRight
-                data-aos="fade-left"
-                className="absolute top-[20px] right-[25px] text-[35px] text-white-300 opacity-[.3]"
-            />
-            <div
-                id="ratings"
-                className="w-full flex flex-row items-center justify-start"
+        <div className="flex flex-col gap-3">
+            <a
+                href="https://replit.com/bounties/@BountyHunter14/integration-of-file"
+                target="_blank"
             >
-                <StarRatings count={5} size={5} />
-                <small className="ml-2 text-white-300 font-bold">
-                    Daniel Shinn From Upwork
-                </small>
-            </div>
-            <br />
-            <div
-                id="body"
-                className="w-full flex flex-row items-start justify-start mt-4"
+                <div
+                    id="t-box"
+                    className="cursor-pointer relative w-full h-auto space-2 bg-dark-300 px-[30px] py-[20px] md:px-[80px] md:py-[50px] rounded-lg overflow-hidden"
+                >
+                    <FaQuoteRight
+                        data-aos="fade-left"
+                        className="absolute top-[20px] right-[25px] text-[35px] text-white-300 opacity-[.3]"
+                    />
+                    <div
+                        id="ratings"
+                        className="w-full flex flex-row items-center justify-start"
+                    >
+                        <StarRatings count={5} size={5} />
+                        <small className="ml-2 text-white-300 font-bold">
+                            Bounty Hunter14 from Replit
+                        </small>
+                    </div>
+                    <br />
+                    <div
+                        id="body"
+                        className="w-full flex flex-row items-start justify-start mt-4"
+                    >
+                        <p data-aos="zoom-in-up">
+                            “Bhavesh did a great job and followed requirements
+                            as were needed in the projects. There were some
+                            things that he wasn't familiar with -- that he
+                            learned and implemented. While the project did take
+                            a little longer than wanted, Bhavesh did good work.
+                            Recommend him for anyone who wants to hire a dev for
+                            work with TS, Next or APis in general.”
+                        </p>
+                    </div>
+                </div>
+            </a>
+            <a
+                href="#"
             >
-                <p data-aos="zoom-in-up">{userInfo.favorites_quote}</p>
-            </div>
+                <div
+                    id="t-box"
+                    className="relative w-full h-auto space-2 bg-dark-300 px-[30px] py-[20px] md:px-[80px] md:py-[50px] rounded-lg overflow-hidden"
+                >
+                    <FaQuoteRight
+                        data-aos="fade-left"
+                        className="absolute top-[20px] right-[25px] text-[35px] text-white-300 opacity-[.3]"
+                    />
+                    <div
+                        id="ratings"
+                        className="w-full flex flex-row items-center justify-start"
+                    >
+                        <StarRatings count={5} size={5} />
+                        <small className="ml-2 text-white-300 font-bold">
+                            Daniel Shinn From Upwork
+                        </small>
+                    </div>
+                    <br />
+                    <div
+                        id="body"
+                        className="w-full flex flex-row items-start justify-start mt-4"
+                    >
+                        <p data-aos="zoom-in-up">{userInfo.favorites_quote}</p>
+                    </div>
+                </div>
+            </a>
         </div>
     );
 }

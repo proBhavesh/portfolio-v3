@@ -1,13 +1,24 @@
-import { Layout, Intro, Container, Projects, Contact, Footer, Quote, DomHead } from "../components";
-import { useEffect } from "react";
-import Aos from "aos"
-import { DataContextProvider } from "../context/DataContext";
+import {
+    Layout,
+    Intro,
+    Container,
+    Projects,
+    Contact,
+    Footer,
+    Quote,
+    DomHead,
+} from "../components";
+import { useEffect, useContext } from "react";
+import DataContext from "../context/DataContext";
+import Aos from "aos";
+import { DataContextProvider } from "../context/DataContext.js";
+// const { openContactForm } = useContext(DataContext);
 
 export default function HomePage() {
-
     useEffect(() => {
-        Aos.init({ duration: "1000" })
-    }, [])
+        Aos.init({ duration: "1000" });
+        // openContactForm();
+    }, []);
 
     return (
         <DataContextProvider>
@@ -15,13 +26,12 @@ export default function HomePage() {
             <Layout>
                 <Container>
                     <Intro />
+                    <Quote />
                     <Projects />
                 </Container>
-                <Quote />
                 <Contact />
                 <Footer />
             </Layout>
         </DataContextProvider>
-    )
+    );
 }
-

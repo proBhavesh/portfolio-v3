@@ -1,6 +1,34 @@
 {
     "projects": [
         {
+            "title": "AWS Chatbot",
+            "imageUrl": "https://i.ibb.co/sby5Nb8/wfeed.png",
+            "project_url": "https://awschatbot.vercel.app/",
+            "description": "Get quality courses with one year membership plans.",
+            "tags": ["react", "nodejs", "mongodb"]
+        },
+        {
+            "title": "Crypto Pay",
+            "imageUrl": "https://github.com/Benrobo/baaymax-cli/raw/master/readmeImg/cli.png?raw=true",
+            "project_url": "https://jecrc-hackathon.vercel.app/",
+            "description": "Get quality courses with one year membership plans.",
+            "tags": ["react", "nodejs", "mongodb"]
+        },
+        {
+            "title": "GET-A-VET",
+            "imageUrl": "https://github.com/Benrobo/baaymax-cli/raw/master/readmeImg/cli.png?raw=true",
+            "project_url": "https://geta-vet.vercel.app/",
+            "description": "Get quality courses with one year membership plans.",
+            "tags": ["react", "nodejs", "mongodb"]
+        },
+        {
+            "title": "Puzzle Game",
+            "imageUrl": "https://github.com/Benrobo/baaymax-cli/raw/master/readmeImg/cli.png?raw=true",
+            "project_url": "https://puzzle-game-website.vercel.app/",
+            "description": "Get quality courses with one year membership plans.",
+            "tags": ["react", "nodejs", "mongodb"]
+        },
+        {
             "title": "Course Selling",
             "imageUrl": "https://github.com/Benrobo/baaymax-cli/raw/master/readmeImg/cli.png?raw=true",
             "project_url": "https://my-course.vercel.app/",
