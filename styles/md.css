@@ -1,0 +1,49 @@
+.markdown {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6 {
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #64f4ac;
+}
+
+.markdown p {
+  margin-bottom: 1rem;
+}
+
+.markdown ul,
+.markdown ol {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+
+.markdown li {
+  margin-bottom: 0.5rem;
+}
+
+.markdown code {
+  /* background-color: ; */
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+.markdown pre {
+  background-color: #202022;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.markdown a {
+  color: blue;
+  text-decoration: underline;
+}
